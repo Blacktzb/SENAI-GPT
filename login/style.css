@@ -1,0 +1,32 @@
+.titulo {
+
+    font-size: 76px;
+}
+
+.robo-image {
+
+    background-color: blue;
+    width: 50vw; /*50% do tamanho da largura do monitor*/
+    height: 100vh; /*100% do tamanho da altura da tela*/
+}
+
+.page-container {
+   
+    display: flex;/*um ao lado do outro*/
+
+}
+
+.login-container {
+
+    background-color: rgb(253, 0, 0);
+    width: 50vw; /*50% do tamanho da largura do monitor*/
+    height: 100vh; /*100% do tamanho da altura da tela*/
+    
+    /*kit sobrevivencia da centralizacao*/
+    display: flex; /*ativar o flex*/
+    flex-direction: column; /*muda o flex para colunas*/
+    align-items: center; /*centralizar horizontalmente*/
+    justify-content: center; /*centralizar verticalmente*/
+
+  
+}
