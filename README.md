@@ -1,2 +1,7 @@
 # SENAI-GPT
-PROJETO SENAI DE INTELIGENCIA ARTIFICIAL 
+este e um repositorio criado para guarda os arquivos do projeto SenaiGPT
+
+## Tecnologias
+
+- HTML
+- CSS
