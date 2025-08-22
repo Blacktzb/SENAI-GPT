@@ -32,8 +32,6 @@
 .central-panel {
     height: 100vh;
     width: 80vw;
-
-    background-color: brown;
 }
 
 .top {
@@ -46,7 +44,7 @@
     justify-content: center;
     flex-direction: column;
 
-    border: 1px solid rgba(0, 0, 0, 0.8);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
 
     padding-left: 20px;
     padding-right: 20px;
@@ -79,7 +77,8 @@
     border: none;
     border-radius: 16px;
 
-    font-size: 24px;
+    font-size: 15px;
+    font-weight: bold;
 
     margin: 4px;
 
@@ -87,7 +86,7 @@
 
 }
 
-.imput {
+.pro {
 
     width: 100%;
     height: 48px;
@@ -99,7 +98,8 @@
     border: none;
 
 
-    font-size: 20px;
+    font-size: 15px;
+    font-weight: bold;
 
 }
 
@@ -113,7 +113,8 @@
 
     border: none;
 
-    font-size: 20px;
+    font-size: 16px;
+    font-weight: bold;
 
 }
 
@@ -129,11 +130,12 @@
 }
 
 .logo {
-    width: 500px;
-    height: 101px;
+    width: 400px;
+    height: auto;
 
     position: absolute;
-    top: 130px;
+    top: 90px;
+    
     display: flex;
 
 
@@ -175,5 +177,43 @@
     justify-content: center;
 
     background-color: #F7F9FB;
+
+}
+
+
+.bottom i {
+    color: aqua;
+    font-size: 24px;
+
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    left: 40px;
+}
+
+.pro i {
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+}
+
+.rodape {
+    display: flex;
+    align-items: center;
+
+    position: relative;
+    top: 180px;
+
+}
+
+.roda {
+    height: 56px;
+    width: 760px;
+
+    background-color: #F7F9FB;
+
+    border-radius: 20px;
+    border: none;
+
+    padding-left: 10px;
 
 }
