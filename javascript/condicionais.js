@@ -39,45 +39,21 @@
 
 // Exercicio 4
 
-let numero = prompt ("Digite um numero");
 
-if (numero >= 0) {
-
-    alert ("o numero e positivo")
-
- }  
- 
- if (numero <= 0) {
-
-    alert ("O numero e negatio")
-
-} else { 
-
-    alert ("zero")
-
-}
-
-
-
-
-
+// let n = prompt("Digite um número:");
+// if (n > 0) alert("Positivo");
+// else if (n < 0) alert("Negativo");
+// else alert("Zero");
 
 
 // Exercicio 5
 
-// let idade = propt ("insira sua idade")
+// let idade = prompt("Digite sua idade:");
 
-// if  (idade > 0 && idade <= 12) {
-
-//     alert ("crianca.");
-
-// } else {
-
-//     if (idade > 12 && idade <= 17) {
-
-//         alert("adolecente.");
-//     }
-// }
+// if (idade >= 0 && idade <= 12) alert("Você é uma Criança");
+// else if (idade >= 13 && idade <= 17) alert("Você é um Adolescente");
+// else if (idade >= 18) alert("Você é um Adulto");
+// else alert("Idade inválida, insira um número positivo.");
 
 
 // Exercicio 6 
