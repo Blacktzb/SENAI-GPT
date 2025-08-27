@@ -1,3 +1,5 @@
+// NIVEL BASICO
+
 // Exercicio 1
 // let idade = prompt ("Qual o seu idade?");
 
@@ -67,3 +69,69 @@
 
 //     alert ("impar")
 // }
+
+// NIVEL INTERMEDIARIO
+
+// EXERCIO 1
+
+// let numero1 = Number (prompt ("insira o primeiro numero"));
+// let numero2 = Number (prompt ("insira o segundo numero"));
+// let operacao = prompt (" insira a operacao Exemplo: +, -, * ou /");
+
+// if (operacao == "+") {
+
+//     let resultado = numero1 + numero2;
+//     alert (resultado)
+
+// } else {
+
+//     if (operacao == "-") {
+
+//         let resultado = numero1 - numero2;
+//         alert (resultado);
+//     }
+
+// }  { 
+
+//     if (operacao == "*") {
+
+//         let resultado = numero1 * numero2;
+//         alert (resultado);
+//     }
+
+// }  {
+
+//     if (operacao == "/") { 
+
+//     let resultado = numero1 / numero2;
+//     alert (resultado)
+
+//     }
+// }
+
+// EXERCICIO 2
+
+
+// let a = parseFloat(prompt("Digite o primeiro número:"));
+// let b = parseFloat(prompt("Digite o segundo número:"));
+// let c = parseFloat(prompt("Digite o terceiro número:"));
+
+
+// let maior = a;
+
+
+// if (b > maior) {
+//     maior = b;
+// }
+// if (c > maior) {
+//     maior = c;
+// }
+
+// alert("O maior número é: " + maior);
+
+
+
+
+
+
+
