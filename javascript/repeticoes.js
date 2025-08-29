@@ -95,15 +95,15 @@
 
 // EXERCICIO 3
 
-let numero = Number (prompt("insira um numero"))
-soma = 0 
-i = 1 
-while (i <= numero) {
-    soma = soma + i 
-    alert (soma)
-    i++
+// let numero = Number (prompt("insira um numero"))
+// soma = 0 
+// i = 1 
+// while (i <= numero) {
+//     soma = soma + i 
+//     alert (soma)
+//     i++
     
-}
+// }
 
 
     
