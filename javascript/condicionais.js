@@ -14,6 +14,7 @@ function exercicio01() {
 
     }
 
+    logs();
 }
 
 
