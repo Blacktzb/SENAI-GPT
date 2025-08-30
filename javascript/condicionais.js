@@ -1,133 +1,156 @@
 // NIVEL BASICO
 
-// Exercicio 1
-// let idade = prompt ("Qual o seu idade?");
+function exercicio01() {
 
-// if (idade >= 18) {
-//     // BLOCO VERDADEIRO
-//     alert ("Voce e maior de idade");
+    let idade = prompt("Qual o seu idade?");
 
-// } else {
-//     // Bloco falso
-//     alert("Va pra super-nani!");
+    if (idade >= 18) {
+        // BLOCO VERDADEIRO
+        alert("Voce e maior de idade");
 
-// }
+    } else {
+        // Bloco falso
+        alert("Va pra super-nani!");
 
-// Exercicio 2
+    }
 
-// let numero = prompt ("Digite um numero");
-
-// if (numero >= 10) {
-
-//     alert ("o numero e positivo");
-
-// } else {
-
-//     alert ("o numero e negativo");
-// }
-
-// Exercicio 3
-
-// let numero = prompt ("Digite a nota do aluno");
-
-// if (numero >= 60) {
-
-//     alert ("Aprovado");
-
-// } else {
-    
-//     alert ("Reprovado");
-// }
-
-// Exercicio 4
+}
 
 
-// let n = prompt("Digite um número:");
-// if (n > 0) alert("Positivo");
-// else if (n < 0) alert("Negativo");
-// else alert("Zero");
+function exercicio02() {
 
 
-// Exercicio 5
+    let numero = prompt("Digite um numero");
 
-// let idade = prompt("Digite sua idade:");
+    if (numero >= 10) {
 
-// if (idade >= 0 && idade <= 12) alert("Você é uma Criança");
-// else if (idade >= 13 && idade <= 17) alert("Você é um Adolescente");
-// else if (idade >= 18) alert("Você é um Adulto");
-// else alert("Idade inválida, insira um número positivo.");
+        alert("o numero e positivo");
+
+    } else {
+
+        alert("o numero e negativo");
+    }
+
+}
+
+function exercicio03() {
+
+    let numero = prompt("Digite a nota do aluno");
+
+    if (numero >= 60) {
+
+        alert("Aprovado");
+
+    } else {
+
+        alert("Reprovado");
+    }
+
+}
 
 
-// Exercicio 6 
+function exercicio04() {
 
-// let num = prompt ("insira um numero:");
+    let n = prompt("Digite um número:");
+    if (n > 0) alert("Positivo");
+    else if (n < 0) alert("Negativo");
+    else alert("Zero");
+}
 
-// if (num % 2 == 0) {
 
-//     alert ("par")
-// } else { 
 
-//     alert ("impar")
-// }
+function exercicio05() {
+
+    let idade = prompt("Digite sua idade:");
+
+    if (idade >= 0 && idade <= 12) alert("Você é uma Criança");
+    else if (idade >= 13 && idade <= 17) alert("Você é um Adolescente");
+    else if (idade >= 18) alert("Você é um Adulto");
+    else alert("Idade inválida, insira um número positivo.");
+
+
+}
+
+
+function exercicio06() {
+
+
+    let num = prompt("insira um numero:");
+
+    if (num % 2 == 0) {
+
+        alert("par")
+    } else {
+
+        alert("impar")
+    }
+}
+
 
 // NIVEL INTERMEDIARIO
 
-// EXERCIO 1
+function EXERCIO1() {
 
-// let numero1 = Number (prompt ("insira o primeiro numero"));
-// let numero2 = Number (prompt ("insira o segundo numero"));
-// let operacao = prompt (" insira a operacao Exemplo: +, -, * ou /");
+    let numero1 = Number(prompt("insira o primeiro numero"));
+    let numero2 = Number(prompt("insira o segundo numero"));
+    let operacao = prompt(" insira a operacao Exemplo: +, -, * ou /");
 
-// if (operacao == "+") {
+    if (operacao == "+") {
 
-//     let resultado = numero1 + numero2;
-//     alert (resultado)
+        let resultado = numero1 + numero2;
+        alert(resultado)
 
-// } else {
+    } else {
 
-//     if (operacao == "-") {
+        if (operacao == "-") {
 
-//         let resultado = numero1 - numero2;
-//         alert (resultado);
-//     }
+            let resultado = numero1 - numero2;
+            alert(resultado);
+        }
 
-// }  { 
+    } {
 
-//     if (operacao == "*") {
+        if (operacao == "*") {
 
-//         let resultado = numero1 * numero2;
-//         alert (resultado);
-//     }
+            let resultado = numero1 * numero2;
+            alert(resultado);
+        }
 
-// }  {
+    } {
 
-//     if (operacao == "/") { 
+        if (operacao == "/") {
 
-//     let resultado = numero1 / numero2;
-//     alert (resultado)
+            let resultado = numero1 / numero2;
+            alert(resultado)
 
-//     }
-// }
-
-// EXERCICIO 2
-
-
-// let a = parseFloat(prompt("Digite o primeiro número:"));
-// let b = parseFloat(prompt("Digite o segundo número:"));
-// let c = parseFloat(prompt("Digite o terceiro número:"));
+        }
+    }
+}
 
 
-// let maior = a;
+
+function EXERCIO2() {
+
+    let a = parseFloat(prompt("Digite o primeiro número:"));
+    let b = parseFloat(prompt("Digite o segundo número:"));
+    let c = parseFloat(prompt("Digite o terceiro número:"));
 
 
-// if (b > maior) {
-//     maior = b;
-// }
-// if (c > maior) {
-//     maior = c;
-// }
+    let maior = a;
 
-// alert("O maior número é: " + maior);
+
+    if (b > maior) {
+        maior = b;
+    }
+    if (c > maior) {
+        maior = c;
+    }
+
+    alert("O maior número é: " + maior);
+}
+
+
+
 
 
 
